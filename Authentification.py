@@ -1,7 +1,6 @@
 #authentification
 from data import*
 from depot import*
-from Clients import*
 
 texte = "Veuillez entrer l'ID et le mot de passe :"
 texte2 = "L'ID et le mot de passe sont incorect :"
@@ -18,4 +17,5 @@ def client_is_notquitting (rep):
 def ask_for_password (ask):
     pass
 
-def 
+def password_is_false (false):
+    pass
