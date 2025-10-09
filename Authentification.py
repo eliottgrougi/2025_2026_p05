@@ -1,4 +1,8 @@
 #authentification
+from data import*
+from depot import*
+from Clients import*
+
 texte = "Veuillez entrer l'ID et le mot de passe :"
 texte2 = "L'ID et le mot de passe sont incorect :"
 print(texte)
@@ -7,9 +11,11 @@ def authentification (a):
         return 
     else print(texte2)
 
-ID = "JeanHenrie"
-password = "kGylgfl78"
 
-"JeanHenrie": "kGylgfl78",
-"alice": "motdepasse1",
-"bob": "azerty123"
+def client_is_notquitting (rep):
+    while 
+
+def ask_for_password (ask):
+    pass
+
+def 
