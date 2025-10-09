@@ -10,9 +10,8 @@ def authentification (a):
         return 
     else print(texte2)
 
-
 def client_is_notquitting (rep):
-    while 
+    while
 
 def ask_for_password (ask):
     pass
