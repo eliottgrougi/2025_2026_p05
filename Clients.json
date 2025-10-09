@@ -1,9 +1,22 @@
-<<<<<<< HEAD
-def clients(nom):
-    return list
-    clients = [
-        {nom:"Delamarre",prénom:"Marc",ID:"marcdelamarre",solde:"300", }
-    ]
-    print (list)
-
-
+{
+    "4593": {
+        "nom": "Delamarre",
+        "pr\u00e9nom": "Marc",
+        "solde": "50.00"
+    },
+    "5623": {
+        "nom": "Gabilla",
+        "pr\u00e9nom": "Esteban",
+        "solde": 205.5
+    },
+    "4587": {
+        "nom": "B\u00e9caud",
+        "pr\u00e9nom": "Rapha\u00ebl",
+        "solde": 200.25
+    },
+    "9658": {
+        "nom": "Marpung",
+        "pr\u00e9nom": "Jensonn",
+        "solde": 50.0
+    }
+}
