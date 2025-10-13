@@ -2,10 +2,6 @@
 from data import*
 from depot import*
 
-quitting_words = ["quit", "Quit", "q", "Q", "ciao", \
-                  "bye", "byebye", "au revoir", "over"]
-
-
 texte = "Veuillez entrer l'ID et le mot de passe :"
 texte2 = "L'ID et le mot de passe sont incorect :"
 print(texte)
