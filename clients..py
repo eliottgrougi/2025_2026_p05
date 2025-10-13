@@ -3,22 +3,22 @@ import json
 clients = { 
     4593 :{
         "nom":"Delamarre",
-         "prénom":"Marc",
-         "solde":"50.00"
+         "prenom":"Marc",
+         "solde":150.00
         } ,
     5623: {
         "nom":"Gabilla",
-         "prénom":"Esteban",
+         "prenom":"Esteban",
          "solde":205.50
         },
     4587: {
-        "nom":"Bécaud",
-         "prénom":"Raphaël",
-         "solde":200.25
+        "nom":"Becaud",
+         "prenom":"Raphael",
+         "solde":100.25
          },
     9658: {
         "nom":"Marpung",
-        "prénom":"Jensonn",
+        "prenom":"Jensonn",
         "solde":50.00
          }
  }
@@ -30,7 +30,7 @@ def save_clients_dict_in_json_file (clients):
         json.dump(clients, f, indent=4)
 
 def is_a_valid_client_id (client_id):
-    return client_id in clients.keys ()
+    return clients [client_id]["nom"]["prenom"]["solde"]
 
 def is_not_a_valid_client_id (client_id):
     return not (is_a_valid_client_id (client_id))
