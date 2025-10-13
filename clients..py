@@ -4,7 +4,7 @@ clients = {
     4593 :{
         "nom":"Delamarre",
          "prénom":"Marc",
-         "solde":"50.00"
+         "solde":150.00
         } ,
     5623: {
         "nom":"Gabilla",
