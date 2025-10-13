@@ -1,3 +1,2 @@
 #retrait
 def retrait(r):
-    
