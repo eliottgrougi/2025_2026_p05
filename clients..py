@@ -40,6 +40,7 @@ def ask_for_client_id ():
     while is_not_a_valid_client_id (client_id):
         reask_for_client_id ()
     return client_id
+    print (clients)
 
 def reask_for_client_id():
      client_id = input ("Ton id client: ")
