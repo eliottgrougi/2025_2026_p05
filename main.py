@@ -1,6 +1,15 @@
 import json
 
-from clients import*
+with open("clients.json", "r") as f:
+    clients = json.load(f)
+
+def save_clients_dict_in_json_file (clients):
+    with open("clients.json", "w") as f:
+        json.dump(clients, f, indent=4)
+        clients = json.load(f)
+
+print (clients.keys ())
+
 def is_a_valid_client_id (client_id):
     return client_id in clients
 
