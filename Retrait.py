@@ -1,2 +1,1 @@
 #retrait
-def retrait(r):
