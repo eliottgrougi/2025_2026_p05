@@ -3,6 +3,4 @@
  #3 = Déposer de l'argent
  #4 = Quitter le programme
 
- import quitting_words
-
-def quit (q):
+import quitting_words
