@@ -2,7 +2,7 @@
     "4593": {
         "nom": "Delamarre",
         "prenom": "Marc",
-        "solde": "50.00"
+        "solde": 50.00
     },
     "5623": {
         "nom": "Gabilla",
@@ -11,7 +11,7 @@
     },
     "4587": {
         "nom": "Becaud",
-        "prenom": "Rapha\u00ebl",
+        "prenom": "Raphael",
         "solde": 100.25
     },
     "9658": {
