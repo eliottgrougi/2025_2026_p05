@@ -5,13 +5,13 @@ import json
 
 
 quitting_words = ["quit", "Quit", "q", "Q", "ciao", \
-                  "bye", "byebye", "au revoir", "over"]
+                  "bye", "byebye", "au revoir", "over", "quitter", "quitté"]
 
-retrait_words = ["r", "R", "retrait", "RETRAIT"]
+retrait_words = ["r", "R", "retrait", "RETRAIT", "Retrait"]
 
-depot_words = ["d", "D", "depot", "DEPOT"]
+depot_words = ["d", "D", "depot", "DEPOT", "Depot"]
 
-solde_words = ["s", "S", "SOLDE", "solde"]
+solde_words = ["s", "S", "SOLDE", "solde", "Solde"]
 
 
 
