@@ -51,22 +51,37 @@ def ask_for_client_id ():
 
 # Partie depot
 def ask_given_money():
-    return
+    """Demande le montant à déposer"""
+    montant = input("Combien veux-tu déposer ? ")
+    try:
+        montant = float(montant)
+        return montant
+    except:
+        print("Ce n’est pas un nombre valide.")
+        return ask_given_money()
 
-def is_a_given_money():
-    return float>0
+def is_a_given_money(montant):
+    """Vérifie que le montant est supérieur à 0"""
+    return montant > 0
 
-def is_not_a_given_money():
-    pass
+def depot(client_id):
+    """Effectue un dépôt sur le compte du client"""
+    montant = ask_given_money()
+    if not is_a_given_money(montant):
+        print("Le montant doit être positif.")
+        return
+
+    clients[client_id]['solde'] += montant
+    print(f"✅ Dépôt de {montant} € effectué avec succès !")
+    print(f"💰 Nouveau solde : {clients[client_id]['solde']} €")
+
+    save_clients_dict_in_json_file(clients)
 
     
 
 def main():
-    """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur
-    Entree : None
-    Sortie : None
-    """
-    print("------------ BIENVENUE - PIOCHE BANQUE PB-------------")
+    """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur"""
+    print("------------ BIENVENUE - PIOCHE BANQUE PB -------------")
     print("Veuillez vous identifier en rentrant votre ID client (code PIN)")
     client_id = ask_for_client_id ()
     print(f"Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
@@ -88,12 +103,11 @@ def main():
             pass
         elif entree in depot_words:
             #apelle fonction depot
-            pass
+            depot(client_id)
         elif entree in solde_words:
             print(f"Ton solde est de {clients[client_id]['solde']} €.")
         else :
             print("Commande non valide")
-
 
 
 main()
