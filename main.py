@@ -47,6 +47,7 @@ def ask_for_client_id ():
         client_id = reask_for_client_id ()
     return client_id
 
+
 # Partie depot
 def ask_given_money():
     """Demande le montant à déposer
@@ -102,6 +103,7 @@ def main():
             #apelle fonction depot
         elif entree in solde_words:
             print(f"Ton solde est de {clients[client_id]['solde']} €.")
+            #Fonction qui donne le solde du client
         else :
             print("Commande non valide")
 
