@@ -140,7 +140,8 @@ def retrait(client_id):
 
 def main():
     """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur"""
-    print("------------ BIENVENUE - PIOCHE BANQUE PB -------------")
+    print("=========== BIENVENUE - PIOCHE BANQUE [PB] ===========")
+    print()
     print("Veuillez vous identifier en rentrant votre ID client (code PIN)")
     client_id = ask_for_client_id ()
     print(f"Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
@@ -149,10 +150,12 @@ def main():
     quitter = False
     while quitter == False:
         print("Veuillez choisir les opérations à effectuer :")
-        print("R : retrait")
-        print("D : dépot")
+        print()
+        print("R : Retrait")
+        print("D : Dépot")
         print("S : Consulter le solde")
-        print("Q : quitter la banque")
+        print("Q : Quitter la banque")
+        print()
         entree = input("Entrez la commande :")
         if entree in quitting_words:
             print("Au revoir.")
