@@ -73,6 +73,31 @@ def depot(client_id):
 
     save_clients_dict_in_json_file (clients)
 
+#retrait
+def ask_wanted_money():
+    """Demande le montant à retirer
+    Entree : 
+    Sortie : Entier (qui a été vérifier)
+    """
+    montant = input("Combien veux-tu retirer ? ")
+    while montant.isdigit() == False :
+        print("veuillez rentrer un montant valide")
+        montant = input("Combien veux-tu retirer ? ")
+
+    return int(montant)
+
+def retrait(client_id):
+    global clients
+    """Effectue un retrait sur le compte du client"""
+    montant = ask_wanted_money()
+
+    clients[client_id]['solde'] -= montant
+    print(f"Retrait de {montant} € effectué")
+    print(f"Nouveau solde : {clients[client_id]['solde']} €")
+
+
+    save_clients_dict_in_json_file (clients)
+
     
 
 def main():
