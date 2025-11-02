@@ -91,6 +91,10 @@ def retrait(client_id):
     """Effectue un retrait sur le compte du client"""
     montant = ask_wanted_money()
 
+    while clients[client_id]['solde'] - montant < 0:
+        print("== Le montant n'est pas disponible sur votre compte ==")
+        montant = ask_wanted_money()
+
     clients[client_id]['solde'] -= montant
     print(f"Retrait de {montant} € effectué")
     print(f"Nouveau solde : {clients[client_id]['solde']} €")
@@ -122,7 +126,7 @@ def main():
             # fermer le json
         elif entree in retrait_words:
             # Fonction retrait
-            pass
+            retrait(client_id)
         elif entree in depot_words:
             depot(client_id)
             #apelle fonction depot
