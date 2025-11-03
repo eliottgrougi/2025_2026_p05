@@ -67,7 +67,9 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 ## Structure du projet :
 
 main.py ----------> Code principal du programme
+
 clients.json -----> Données des clients (PIN, nom, solde)
+
 README.md --------> Manuel utilisateur
 
 ---
