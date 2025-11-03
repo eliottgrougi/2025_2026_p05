@@ -44,7 +44,7 @@ Si le code est invalide, le programme redemande la saisie.
 
 ---
 
-### Menu principal
+### 2) Menu principal
 
 Une fois connecté, le menu suivant s’affiche :
 
