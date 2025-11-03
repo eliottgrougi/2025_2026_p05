@@ -2,7 +2,7 @@
 
 #  Simulateur de Distributeur Automatique de Billets (DAB)
 
-## Description
+## Description :
 Ce projet Python simule le comportement d’un **distributeur automatique de billets (DAB)**.  
 Il permet à un utilisateur de :
 -  S’identifier avec un **code PIN fictif**.
@@ -16,7 +16,7 @@ Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 
 ---
 
-## Fonctionnalités principales
+## Fonctionnalités principales :
 
 | Fonction | Description |
 
@@ -64,7 +64,7 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## Structure du projet
+## Structure du projet :
 
 ```
  Projet_DAB/
@@ -75,7 +75,7 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## Exemple de contenu du fichier `clients.json`
+## Exemple de contenu du fichier `clients.json` :
 
 ```json
 {
@@ -94,7 +94,7 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## Exemple d’exécution:
+## Exemple d’exécution :
 
 ```
 ------------ BIENVENUE - PIOCHE BANQUE PB -------------
@@ -123,7 +123,7 @@ Nouveau solde : 105 €
 
 ---
 
-## Auteur
+## Auteur :
 
 Projet réalisé dans le cadre d’un projet Python en NSI – **Simulation d’un Distributeur Automatique de Billets (DAB)**.
 
