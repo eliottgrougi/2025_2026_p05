@@ -34,7 +34,7 @@ Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 Au démarrage, le programme affiche :
 
 ```
------------- BIENVENUE - PIOCHE BANQUE PB -------------
+============= BIENVENUE - PIOCHE BANQUE [PB] =============
 Veuillez vous identifier en rentrant votre ID client (code PIN)
 Ton id client:
 ```
