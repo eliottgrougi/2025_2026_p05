@@ -125,14 +125,17 @@ def retrait(client_id):
 
     print(f"Retrait de {montant} € effectué")
     liste_billet_2 = decomposer_billet(montant)
+    print()
     print("== Billets distribués : ==")
+    print()
     print(f"{liste_billet_2[0] } billet de 50 €")
     print(f"{liste_billet_2[1] } billet de 20 €")
     print(f"{liste_billet_2[2] } billet de 10 €")
     print(f"{liste_billet_2[3] } billet de 5 €")
     print(f"Nouveau solde : {clients[client_id]['solde']} €")
+    print()
     print("== Fin du retrait ==")
-
+    print()
 
     save_clients_dict_in_json_file (clients)
 
