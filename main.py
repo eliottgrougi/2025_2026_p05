@@ -155,7 +155,7 @@ def main():
         print("Veuillez choisir les opérations à effectuer :")
         print()
         print("1 : Retrait")
-        print("2 : Dépot")
+        print("2 : Dépott")
         print("3 : Consulter le solde")
         print("4 : Quitter la banque")
         print()
