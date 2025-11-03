@@ -1,6 +1,6 @@
 
 
-#  Simulateur de Distributeur Automatique de Billets (DAB)
+#  💵 Simulateur de Distributeur Automatique de Billets (DAB)
 
 ## Description :
 Ce projet Python simule le comportement d’un **distributeur automatique de billets (DAB)**.  
@@ -66,12 +66,11 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ## Structure du projet :
 
-```
- Projet_DAB/
-├── main.py              # Code principal du programme
-├── clients.json         # Données des clients (PIN, nom, solde)
-└── README.md            # Manuel utilisateur
-```
+main.py ----------> Code principal du programme
+
+clients.json --------> Données des clients (PIN, nom, solde)
+
+README.md --------> Manuel utilisateur
 
 ---
 
