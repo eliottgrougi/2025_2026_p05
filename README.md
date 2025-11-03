@@ -1,8 +1,8 @@
 
 
-#  Simulateur de Distributeur Automatique de Billets (DAB)
+#  💵 Simulateur de Distributeur Automatique de Billets (DAB)
 
-## Description
+## Description :
 Ce projet Python simule le comportement d’un **distributeur automatique de billets (DAB)**.  
 Il permet à un utilisateur de :
 -  S’identifier avec un **code PIN fictif**.
@@ -16,7 +16,7 @@ Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 
 ---
 
-## Fonctionnalités principales
+## Fonctionnalités principales :
 
 | Fonction | Description |
 
@@ -34,7 +34,7 @@ Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 Au démarrage, le programme affiche :
 
 ```
------------- BIENVENUE - PIOCHE BANQUE PB -------------
+============= BIENVENUE - PIOCHE BANQUE [PB] =============
 Veuillez vous identifier en rentrant votre ID client (code PIN)
 Ton id client:
 ```
@@ -44,7 +44,7 @@ Si le code est invalide, le programme redemande la saisie.
 
 ---
 
-### Menu principal
+### 2) Menu principal
 
 Une fois connecté, le menu suivant s’affiche :
 
@@ -64,18 +64,17 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## Structure du projet
+## Structure du projet :
 
-```
- Projet_DAB/
-├── main.py              # Code principal du programme
-├── clients.json         # Données des clients (PIN, nom, solde)
-└── README.md            # Manuel utilisateur
-```
+main.py ----------> Code principal du programme
+
+clients.json --------> Données des clients (PIN, nom, solde)
+
+README.md --------> Manuel utilisateur
 
 ---
 
-## Exemple de contenu du fichier `clients.json`
+## Exemple de contenu du fichier `clients.json` :
 
 ```json
 {
@@ -94,7 +93,7 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## Exemple d’exécution:
+## Exemple d’exécution :
 
 ```
 ------------ BIENVENUE - PIOCHE BANQUE PB -------------
@@ -123,7 +122,7 @@ Nouveau solde : 105 €
 
 ---
 
-## Auteur
+## Auteur :
 
 Projet réalisé dans le cadre d’un projet Python en NSI – **Simulation d’un Distributeur Automatique de Billets (DAB)**.
 
@@ -132,7 +131,7 @@ Projet réalisé dans le cadre d’un projet Python en NSI – **Simulation d’
 
 Tom RENOU
 Esteban GABILLA
-Eliot GROUGI
+Eliott GROUGI
 
 NSI 
 1er 2
