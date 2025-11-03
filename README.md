@@ -1,35 +1,35 @@
 
 
-# 🏦 Simulateur de Distributeur Automatique de Billets (DAB)
+#  Simulateur de Distributeur Automatique de Billets (DAB)
 
-## 📘 Description
+## Description
 Ce projet Python simule le comportement d’un **distributeur automatique de billets (DAB)**.  
 Il permet à un utilisateur de :
-- 🔐 S’identifier avec un **code PIN fictif**.
-- 💰 **Consulter son solde**.
-- 💵 **Déposer de l’argent**.
-- 💸 **Retirer de l’argent** (avec décomposition en billets de 50€, 20€, 10€, et 5€).
-- 🚪 **Quitter le programme** proprement.
+-  S’identifier avec un **code PIN fictif**.
+-  **Consulter son solde**.
+-  **Déposer de l’argent**.
+-  **Retirer de l’argent** (avec décomposition en billets de 50€, 20€, 10€, et 5€).
+-  **Quitter le programme** proprement.
 
 Toutes les données clients (nom, prénom, solde, code PIN, etc.) sont enregistrées dans un fichier `clients.json`.  
 Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 
 ---
 
-## ⚙️ Fonctionnalités principales
+## Fonctionnalités principales
 
 | Fonction | Description |
-|-----------|-------------|
-| 🔐 **Authentification** | Vérifie le code PIN dans le fichier `clients.json`. |
-| 💰 **Dépôt** | Ajoute un montant au solde du compte et sauvegarde le fichier. |
-| 💸 **Retrait** | Vérifie le solde disponible, retire la somme demandée et affiche la décomposition en billets. |
-| 📊 **Consultation du solde** | Affiche le solde actuel du compte. |
-| 🚪 **Quitter** | Termine proprement la session du client. |
+
+|  **Authentification** | Vérifie le code PIN dans le fichier `clients.json`. |
+| **Dépôt** | Ajoute un montant au solde du compte et sauvegarde le fichier. |
+|  **Retrait** | Vérifie le solde disponible, retire la somme demandée et affiche la décomposition en billets. |
+|  **Consultation du solde** | Affiche le solde actuel du compte. |
+|  **Quitter** | Termine proprement la session du client. |
 
 ---
 
 
-### 1️⃣ Connexion
+### 1) Connexion
 
 Au démarrage, le programme affiche :
 
@@ -39,12 +39,12 @@ Veuillez vous identifier en rentrant votre ID client (code PIN)
 Ton id client:
 ```
 
-➡️ Entrez votre identifiant (existant dans `clients.json`).
+=> Entrez votre identifiant (existant dans `clients.json`).
 Si le code est invalide, le programme redemande la saisie.
 
 ---
 
-### 2️⃣ Menu principal
+### Menu principal
 
 Une fois connecté, le menu suivant s’affiche :
 
@@ -64,10 +64,10 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## 💾 Structure du projet
+## Structure du projet
 
 ```
-📁 Projet_DAB/
+ Projet_DAB/
 ├── main.py              # Code principal du programme
 ├── clients.json         # Données des clients (PIN, nom, solde)
 └── README.md            # Manuel utilisateur
@@ -75,7 +75,7 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## 📂 Exemple de contenu du fichier `clients.json`
+## Exemple de contenu du fichier `clients.json`
 
 ```json
 {
@@ -94,7 +94,7 @@ Chaque modification est automatiquement enregistrée dans le fichier `clients.js
 
 ---
 
-## 🧑‍💻 Exemple d’exécution
+## Exemple d’exécution:
 
 ```
 ------------ BIENVENUE - PIOCHE BANQUE PB -------------
@@ -123,7 +123,7 @@ Nouveau solde : 105 €
 
 ---
 
-## 👨‍💻 Auteur
+## Auteur
 
 Projet réalisé dans le cadre d’un projet Python en NSI – **Simulation d’un Distributeur Automatique de Billets (DAB)**.
 
