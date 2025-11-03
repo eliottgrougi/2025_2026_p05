@@ -56,7 +56,7 @@ def ask_given_money():
     """
     montant = input("Combien veux-tu déposer ? ")
     while montant.isdigit() == False :
-        print("veuillez rentrer un montant valide")
+        print("Veuillez rentrer un montant valide")
         montant = input("Combien veux-tu déposer ? ")
 
     return int(montant)
@@ -81,7 +81,7 @@ def ask_wanted_money():
     """
     montant = input("Combien veux-tu retirer ? ")
     while montant.isdigit() == False or int(montant)%5 != 0 :
-        print("veuillez rentrer un montant valide")
+        print("Veuillez rentrer un montant valide")
         montant = input("Combien veux-tu retirer ? ")
 
     return int(montant)
