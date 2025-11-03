@@ -73,7 +73,7 @@ def depot(client_id):
 
     save_clients_dict_in_json_file (clients)
 
-#retrait
+#Partie retrait
 def ask_wanted_money():
     """Demande le montant à retirer
     Entree : 
