@@ -132,7 +132,7 @@ Projet réalisé dans le cadre d’un projet Python en NSI – **Simulation d’
 
 Tom RENOU
 Esteban GABILLA
-Eliot GROUGI
+Eliott GROUGI
 
 NSI 
 1er 2
