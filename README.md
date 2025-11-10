@@ -1,6 +1,8 @@
+Esteban Gabilla
+Eliott Grougi
+Tom Renou
 
-
-#  💵 Simulateur de Distributeur Automatique de Billets (DAB)
+# Simulateur de Distributeur Automatique de Billets (DAB)
 
 ## Description :
 Ce projet Python simule le comportement d’un **distributeur automatique de billets (DAB)**.  
