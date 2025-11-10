@@ -4,8 +4,6 @@ import json
 # Data
 import data
 
-# Déclarations de variables
-
 # Partie Json
 with open("clients.json", "r") as f:
     clients = json.load(f)
