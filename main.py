@@ -1,6 +1,9 @@
 # Librairies 
 import json
 
+# Data
+import data
+
 # Déclarations de variables
 
 # Partie Json
