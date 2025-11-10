@@ -1,13 +1,9 @@
 # Librairies 
 from json import*
-
+from tools import *
 from data import*
 
-# Partie Json
 
-def save_clients_dict_in_json_file (clients):
-    with open("clients.json", "w") as f:
-        json.dump(clients, f, indent=4)
 
 print (clients.keys ())
 
