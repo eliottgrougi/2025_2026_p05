@@ -34,9 +34,9 @@ def ask_for_client_id ():
         client_id = reask_for_client_id ()
     return client_id
 
-depot import
+import depot
 
-retrait import
+import retrait 
     
 def main():
     """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur"""
