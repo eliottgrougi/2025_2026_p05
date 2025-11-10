@@ -1,7 +1,4 @@
 #Partie retrait
-
-import json 
-
 def ask_wanted_money():
     """Demande le montant à retirer
     Entree : 
@@ -64,9 +61,5 @@ def retrait(client_id):
     print()
     print("== Fin du retrait ==")
     print()
-
-def save_clients_dict_in_json_file (clients):
-    with open("clients.json", "w") as f:
-        json.dump(clients, f, indent=4)
 
     save_clients_dict_in_json_file (clients)

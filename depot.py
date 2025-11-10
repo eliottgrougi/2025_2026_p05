@@ -1,6 +1,4 @@
-import json
- 
- # Partie depot
+# Partie depot
 def ask_given_money():
     """Demande le montant à déposer
     Entree : 
@@ -21,10 +19,6 @@ def depot(client_id):
     clients[client_id]['solde'] += montant
     print(f"Dépôt de {montant} € effectué")
     print(f"Nouveau solde : {clients[client_id]['solde']} €")
-
-def save_clients_dict_in_json_file (clients):
-    with open("clients.json", "w") as f:
-        json.dump(clients, f, indent=4)
 
 
     save_clients_dict_in_json_file (clients)

@@ -1,9 +1,6 @@
 # Librairies 
 import json
-
-# Data
-from data import*
-
+# Déclarations de variables
 # Partie Json
 with open("clients.json", "r") as f:
     clients = json.load(f)
@@ -35,9 +32,9 @@ def ask_for_client_id ():
         client_id = reask_for_client_id ()
     return client_id
 
-from depot import*
+depot import
 
-from retrait import*
+retrait import
     
 def main():
     """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur"""
