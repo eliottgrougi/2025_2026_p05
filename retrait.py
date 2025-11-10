@@ -1,12 +1,8 @@
 #Partie retrait
-<<<<<<< Updated upstream
-=======
 
 import json 
 from data import clients
 
-
->>>>>>> Stashed changes
 def ask_wanted_money():
     """Demande le montant à retirer
     Entree : 
