@@ -139,7 +139,7 @@ def retrait(client_id):
 
     save_clients_dict_in_json_file (clients)
 
-    
+
 
 def main():
     """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur"""
