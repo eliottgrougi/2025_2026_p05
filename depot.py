@@ -1,4 +1,6 @@
-# Partie depot
+from tools import *
+from data import *
+
 def ask_given_money():
     """Demande le montant à déposer
     Entree : 
