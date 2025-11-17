@@ -31,7 +31,7 @@ from retrait import*
 def main():
     """Fonction main qui est appelée au lancement du script et qui appelle les autres fonctions pour réaliser des tâches précises que demande l'utilisateur"""
     print("▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄")
-    print("▌                 BIENVENUE - PIOCHE BANQUE [PB]                  ▌")
+    print("▌                 BIENVENUE - PIOCHE BANQUE [PB]")
     print("▌")
     print("▌ Veuillez vous identifier en rentrant votre ID client (code PIN)")
     client_id = ask_for_client_id ()
