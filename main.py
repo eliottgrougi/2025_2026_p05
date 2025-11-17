@@ -38,7 +38,7 @@ def main():
     print("▌ ID Validé ✅")
     print(f"▌ Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
     print("▌")
-    print(f"▌ 💵 Ton solde est de {clients[client_id]['solde']} €.")
+    print(f"▌ Ton solde est de {clients[client_id]['solde']} €.")
 
     quitter = False
     while quitter == False:
@@ -61,10 +61,10 @@ def main():
             depot(client_id)
             #apelle fonction depot
         elif entree in solde_words:
-            print(f"▌ 💵 Ton solde est de {clients[client_id]['solde']} €.")
+            print(f"▌ Ton solde est de {clients[client_id]['solde']} €.")
             #Fonction qui donne le solde du client
         else :
-            print("▌ ⚠ Commande non valide ⚠")
+            print("▌ ⚠️ Commande non valide ⚠️")
 
 
 main()
