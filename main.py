@@ -35,11 +35,12 @@ def main():
     print("Veuillez vous identifier en rentrant votre ID client (code PIN)")
     client_id = ask_for_client_id ()
     print(f"Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
+    print()
     print(f"Ton solde est de {clients[client_id]['solde']} €.")
 
     quitter = False
     while quitter == False:
-        print("Veuillez choisir les opérations à effectuer :")
+        print("== Veuillez choisir les opérations à effectuer ==")
         print()
         print("1 : Retrait")
         print("2 : Dépot")
