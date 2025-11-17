@@ -35,16 +35,10 @@ def main():
     print("▌")
     print("▌ Veuillez vous identifier en rentrant votre ID client (code PIN)")
     client_id = ask_for_client_id ()
-<<<<<<< HEAD
     print("ID Validé ✅")
     print(f"Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
     print()
     print(f"Ton solde est de {clients[client_id]['solde']} €.")
-=======
-    print(f"▌ Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
-    print
-    print(f"▌ Ton solde est de {clients[client_id]['solde']} €.")
->>>>>>> ce183509e239b107cdf67a43cd7a44ff59adbbb8
 
     quitter = False
     while quitter == False:
