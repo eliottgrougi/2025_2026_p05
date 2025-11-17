@@ -34,6 +34,7 @@ def main():
     print()
     print("Veuillez vous identifier en rentrant votre ID client (code PIN)")
     client_id = ask_for_client_id ()
+    print("ID Validé ✅")
     print(f"Bienvenue {clients[client_id]['prenom']} {clients[client_id]['nom']} !")
     print()
     print(f"Ton solde est de {clients[client_id]['solde']} €.")
