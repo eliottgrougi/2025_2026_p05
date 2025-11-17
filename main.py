@@ -64,7 +64,7 @@ def main():
             print(f"▌ Ton solde est de {clients[client_id]['solde']} €.")
             #Fonction qui donne le solde du client
         else :
-            print("▌ ⚠️ Commande non valide ⚠️")
+            print("▌ ⚠️  Commande non valide ⚠️")
 
 
 main()
