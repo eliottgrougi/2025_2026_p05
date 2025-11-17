@@ -20,7 +20,7 @@ def reask_for_client_id():
 def ask_for_client_id ():
     client_id = input ("▌ Ton id client: ")
     while is_not_a_valid_client_id (client_id):
-        print ("▌ ⚠️ Ton id est invalide, réessaie. ⚠️")
+        print ("▌ ⚠️  Ton id est invalide, réessaie. ⚠️")
         client_id = reask_for_client_id ()
     return client_id
 
