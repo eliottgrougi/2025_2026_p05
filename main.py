@@ -44,10 +44,10 @@ def main():
     while quitter == False:
         print("▌ Veuillez choisir les opérations à effectuer")
         print("▌")
-        print("▌ 1 : Retrait")
-        print("▌ 2 : Dépot")
-        print("▌ 3 : Consulter le solde")
-        print("▌ 4 : Quitter la banque")
+        print("▌ 1 : Retrait [💸]")
+        print("▌ 2 : Dépot [💳]")
+        print("▌ 3 : Consulter le solde [🏦]")
+        print("▌ 4 : Quitter la banque [➡️]")
         print("▌")
         entree = input("▌ Entrez la commande :")
         if entree in quitting_words:
