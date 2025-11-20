@@ -46,7 +46,7 @@ def main():
         print("▌ 1 : Retrait [💸]")
         print("▌ 2 : Dépot [💳]")
         print("▌ 3 : Consulter le solde [🏦]")
-        print("▌ 4 : Quitter la banque [➡️]")
+        print("▌ 4 : Quitter la banque [➡️ ]")
         print("▌")
         entree = input("▌ Entrez la commande :")
         if entree in quitting_words:
