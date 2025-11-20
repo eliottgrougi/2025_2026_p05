@@ -63,8 +63,8 @@ def retrait(client_id):
     print(f"▌ {liste_billet_2[2] } billet de 10 €")
     print(f"▌ {liste_billet_2[3] } billet de 5 €")
     print(f"▌ Nouveau solde : {clients[client_id]['solde']} €")
-    print()
+    print("▌")
     print("▌  == Fin du retrait ==")
-    print()
+    print("▌")
 
     save_clients_dict_in_json_file (clients)
