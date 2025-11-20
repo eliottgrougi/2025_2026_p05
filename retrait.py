@@ -9,10 +9,10 @@ def ask_wanted_money():
     Entree : 
     Sortie : Entier (qui a été vérifier)
     """
-    montant = input("Combien veux-tu retirer ? ")
+    montant = input("▌ Combien veux-tu retirer ? ")
     while montant.isdigit() == False or int(montant)%5 != 0 :
-        print("Veuillez rentrer un montant valide")
-        montant = input("Combien veux-tu retirer ? ")
+        print("▌ Veuillez rentrer un montant valide")
+        montant = input("▌ Combien veux-tu retirer ? ")
 
     return int(montant)
 
@@ -47,24 +47,24 @@ def retrait(client_id):
     montant = ask_wanted_money()
 
     while clients[client_id]['solde'] - montant < 0:
-        print("== Le montant n'est pas disponible sur votre compte ==")
+        print("▌  == Le montant n'est pas disponible sur votre compte ==")
         montant = ask_wanted_money()
 
     clients[client_id]['solde'] -= montant
 
 
-    print(f"Retrait de {montant} € effectué")
+    print(f"▌ Retrait de {montant} € effectué")
     liste_billet_2 = decomposer_billet(montant)
     print()
-    print("== Billets distribués : ==")
+    print("▌  == Billets distribués : ==")
     print()
-    print(f"{liste_billet_2[0] } billet de 50 €")
-    print(f"{liste_billet_2[1] } billet de 20 €")
-    print(f"{liste_billet_2[2] } billet de 10 €")
-    print(f"{liste_billet_2[3] } billet de 5 €")
-    print(f"Nouveau solde : {clients[client_id]['solde']} €")
+    print(f"▌ {liste_billet_2[0] } billet de 50 €")
+    print(f"▌ {liste_billet_2[1] } billet de 20 €")
+    print(f"▌ {liste_billet_2[2] } billet de 10 €")
+    print(f"▌ {liste_billet_2[3] } billet de 5 €")
+    print(f"▌ Nouveau solde : {clients[client_id]['solde']} €")
     print()
-    print("== Fin du retrait ==")
+    print("▌  == Fin du retrait ==")
     print()
 
     save_clients_dict_in_json_file (clients)
