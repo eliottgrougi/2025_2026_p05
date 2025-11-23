@@ -55,9 +55,9 @@ def retrait(client_id):
 
     print(f"▌ Retrait de {montant} € effectué")
     liste_billet_2 = decomposer_billet(montant)
-    print()
+    print("▌")
     print("▌  == Billets distribués : ==")
-    print()
+    print("▌")
     print(f"▌ {liste_billet_2[0] } billet de 50 €")
     print(f"▌ {liste_billet_2[1] } billet de 20 €")
     print(f"▌ {liste_billet_2[2] } billet de 10 €")
