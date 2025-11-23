@@ -28,6 +28,7 @@ Fonction  Description
  Quitter:  Termine proprement la session du client. 
 
 
+
 1) Connexion
 
 Au démarrage, le programme affiche :
@@ -38,6 +39,7 @@ Ton id client:
 
 => Entrez votre identifiant (existant dans `clients.json`).
 Si le code est invalide, le programme redemande la saisie.
+
 
 2) Menu principal
 
