@@ -14,7 +14,6 @@ Il permet à un utilisateur de :
 Toutes les données clients (nom, prénom, solde, code PIN, etc.) sont enregistrées dans un fichier `clients.json`.  
 Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 
----
 
 ## Fonctionnalités principales :
 
@@ -30,34 +29,26 @@ Les opérations de dépôt et retrait sont sauvegardées automatiquement.
  
  **Quitter**  Termine proprement la session du client. 
 
----
-
 
 ### 1) Connexion
 
 Au démarrage, le programme affiche :
 
-```
 ============= BIENVENUE - PIOCHE BANQUE [PB] =============
 Veuillez vous identifier en rentrant votre ID client (code PIN)
 Ton id client:
-```
 
 => Entrez votre identifiant (existant dans `clients.json`).
 Si le code est invalide, le programme redemande la saisie.
-
----
 
 ### 2) Menu principal
 
 Une fois connecté, le menu suivant s’affiche :
 
-```
 R : Retrait
 D : Dépôt
 S : Consulter le solde
 Q : Quitter la banque
-```
 
 * Tapez **R** → pour effectuer un retrait (multiple de 5).
 * Tapez **D** → pour faire un dépôt.
@@ -66,7 +57,6 @@ Q : Quitter la banque
 
 Chaque modification est automatiquement enregistrée dans le fichier `clients.json`.
 
----
 
 ## Structure du projet :
 
@@ -76,7 +66,6 @@ clients.json --------> Données des clients (PIN, nom, solde)
 
 README.md --------> Manuel utilisateur
 
----
 
 ## Exemple de contenu du fichier `clients.json` :
 
@@ -95,7 +84,6 @@ README.md --------> Manuel utilisateur
 }
 ```
 
----
 
 ## Exemple d’exécution :
 
@@ -124,14 +112,14 @@ Combien veux-tu retirer ? 45
 Nouveau solde : 105 €
 ```
 
----
+
 
 ## Auteur :
 
 Projet réalisé dans le cadre d’un projet Python en NSI – **Simulation d’un Distributeur Automatique de Billets (DAB)**.
 
 
-```
+
 
 Tom RENOU
 Esteban GABILLA
