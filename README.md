@@ -18,13 +18,13 @@ Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 
 ## Fonctionnalités principales :
 
-| Fonction | Description |
+ Fonction  Description 
 
-|  **Authentification** | Vérifie le code PIN dans le fichier `clients.json`. |
-| **Dépôt** | Ajoute un montant au solde du compte et sauvegarde le fichier. |
-|  **Retrait** | Vérifie le solde disponible, retire la somme demandée et affiche la décomposition en billets. |
-|  **Consultation du solde** | Affiche le solde actuel du compte. |
-|  **Quitter** | Termine proprement la session du client. |
+  **Authentification**  Vérifie le code PIN dans le fichier `clients.json`. 
+ **Dépôt**  Ajoute un montant au solde du compte et sauvegarde le fichier. 
+  **Retrait**  Vérifie le solde disponible, retire la somme demandée et affiche la décomposition en billets. 
+  **Consultation du solde**  Affiche le solde actuel du compte. 
+  **Quitter**  Termine proprement la session du client. 
 
 ---
 
