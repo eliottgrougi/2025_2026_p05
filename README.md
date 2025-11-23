@@ -62,6 +62,14 @@ Structure du projet :
 
 main.py ----------> Code principal du programme
 
+data.py ----------> Base de données
+
+tools.py ----------> outils
+
+retrait.py ----------> Code de la partie retrait
+
+depot.py ----------> Code de la partie depot
+
 clients.json --------> Données des clients (PIN, nom, solde)
 
 README.md --------> Manuel utilisateur
