@@ -6,8 +6,6 @@ from data import*
 def is_a_valid_client_id (client_id):
     """
     La fonction permet de vérifier si l'ID client existe (compare parmis la liste ID client récupéré du JSON)
-    Entree : 
-    Sortie : 
     """
     return client_id in clients
 
