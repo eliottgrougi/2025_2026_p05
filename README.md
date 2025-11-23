@@ -10,14 +10,14 @@ Il permet à un utilisateur de :
 -  Retirer de l’argent (avec décomposition en billets de 50€, 20€, 10€, et 5€).
 -  Quitter le programme proprement.
 
-Toutes les données clients (nom, prénom, solde, code PIN, etc.) sont enregistrées dans un fichier `clients.json`.  
+Toutes les données clients (nom, prénom, solde, code PIN, etc.) sont enregistrées dans un fichier "clients.json".  
 Les opérations de dépôt et retrait sont sauvegardées automatiquement.
 
 Fonctionnalités principales :
 
 Fonction  Description 
 
- Authentification:  Vérifie le code PIN dans le fichier `clients.json`. 
+ Authentification:  Vérifie le code PIN dans le fichier "clients.json". 
 
  Dépôt:  Ajoute un montant au solde du compte et sauvegarde le fichier. 
 
@@ -37,7 +37,7 @@ Au démarrage, le programme affiche :
 Veuillez vous identifier en rentrant votre ID client (code PIN)
 Ton id client:
 
-=> Entrez votre identifiant (existant dans `clients.json`).
+=> Entrez votre identifiant (existant dans "clients.json").
 Si le code est invalide, le programme redemande la saisie.
 
 
@@ -45,17 +45,17 @@ Si le code est invalide, le programme redemande la saisie.
 
 Une fois connecté, le menu suivant s’affiche :
 
-R : Retrait
-D : Dépôt
-S : Consulter le solde
-Q : Quitter la banque
+1 : Retrait
+2 : Dépôt
+3 : Consulter le solde
+4 : Quitter la banque
 
-* Tapez **R** → pour effectuer un retrait (multiple de 5).
-* Tapez **D** → pour faire un dépôt.
-* Tapez **S** → pour consulter le solde.
-* Tapez **Q** → pour quitter le programme.
+* Tapez 1 → pour effectuer un retrait (multiple de 5).
+* Tapez 2 → pour faire un dépôt.
+* Tapez 3 → pour consulter le solde.
+* Tapez 4 → pour quitter le programme.
 
-Chaque modification est automatiquement enregistrée dans le fichier `clients.json`.
+Chaque modification est automatiquement enregistrée dans le fichier "clients.json".
 
 
 Structure du projet :
@@ -67,7 +67,7 @@ clients.json --------> Données des clients (PIN, nom, solde)
 README.md --------> Manuel utilisateur
 
 
- Exemple de contenu du fichier `clients.json` :
+ Exemple de contenu du fichier "clients.json" :
 
 json
 {
@@ -94,12 +94,12 @@ Bienvenue Théo Martin !
 Ton solde est de 150 €.
 
 Veuillez choisir les opérations à effectuer :
-R : retrait
-D : dépôt
-S : consulter le solde
-Q : quitter la banque
+1 : retrait
+2 : dépôt
+3 : consulter le solde
+4 : quitter la banque
 
-Entrez la commande : R
+Entrez la commande : 1
 Combien veux-tu retirer ? 45
 
 == Billets distribués : ==
@@ -128,4 +128,3 @@ NSI
 1er 2
 2025-2026
 
-```
