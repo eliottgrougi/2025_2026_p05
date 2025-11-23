@@ -6,7 +6,7 @@ from tools import *
 
 def ask_wanted_money():
     """Demande le montant à retirer
-    Entree : 
+    Entree : le montant
     Sortie : Entier (qui a été vérifier)
     """
     montant = input("▌ Combien veux-tu retirer ? ")
